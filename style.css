@@ -79,6 +79,16 @@ p {
   color: #fff;
 }
 
+.list {
+  background: #333;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
+}
+
 .btn {
     display: inline-block;
     color: #444;
@@ -172,4 +182,15 @@ p {
 
 #who .who-img {
   background: url('/img/tshaw_side_angle.jpg') no-repeat center center/cover;
+}
+
+/* Clients */
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
 }
